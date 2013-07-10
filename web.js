@@ -4,8 +4,6 @@ var index = fs.readFileSync('index.html');
 
 var str = index.toString();
 
-#######################
-
 var express = require('express');
 
 var app = express.createServer(express.logger());
