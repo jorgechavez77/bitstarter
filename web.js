@@ -13,9 +13,9 @@ console.log("dir_name: " + __dirname);
 app.use(express.static(__dirname + '/videos/'));
 app.use(express.static(__dirname + '/images/'));
 
-var vidStreamer = require("vid-streamer");
+//var vidStreamer = require("vid-streamer");
 
-app.get('videos/', vidStreamer);
+//app.get('videos/', vidStreamer);
 
 app.get('/', function(request, response) {
   response.send(str);
